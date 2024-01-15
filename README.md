@@ -26,7 +26,7 @@ After successful completion of this course, it helped me to...
   * Manage the use of time and other resources to complete projects.
   * Take responsibility for one's own actions, decisions, and consequences.
 
-* Gain a handsome knowledge on all of the topics of Intro to C Programming namely-     
+* Gain a handsome knowledge on all of the topics of Applied Problem Solving namely-     
 * Computational thinking approach to problem solving
     * Decomposition
         * Cohesion and Coupling
