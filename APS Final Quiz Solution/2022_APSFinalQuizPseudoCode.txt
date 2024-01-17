@@ -1,0 +1,58 @@
+APS QUIZ - 3 :
+
+/* 
+
+DATA STRUCTURES FOR THE PROGRAM : 
+1.) AgentsCall (Structure) - this will keep record of the agents handling the call.
+2.) Queue (Array) - this will keep record of the 15 calls at a time (time limit).
+3.) CallerInfo (Structure) - to record the information of the caller contact information.
+4.) ProblemService (Structure) - to determine the problem and the service given to solve that.
+5.) PrioritiesLevel (Structure) - Assigned Priorities to the calls will be stored here.
+6.) LogFile (Structure) - The date and time of the dispatch is recorded.
+*/
+
+STEP 1 - START/ INITIALIZATION OF PART 1 
+
+STEP 2 - Caller calls 911, to one of the agent.
+
+STEP 3 - Calls are forwarded to the AgentsCall structure, and it will determine which Agents are available at the time and which Agents attend the calls from the caller.
+
+STEP 4 - If the agent is idle : the call gets forwarded to that agent.
+       - else : the calls goes on to the Queue(Array).
+
+STEP 5 - If the Queue > 15 calls : then the rest of the calls are being transferred to the another 911 branch and a message is played that the queue is full.
+
+Else : they are made to be on the hold, waiting for the agent to finish their previous calls.
+
+STEP 6 - When the agents get free from their previous calls, the Queue (Array) passes onto the calls to the required idle agent for attending the calls, in the order of the queue.
+
+STEP 7 - Agents while initially handling the call....
+		If the caller does not able to describe the problem effectively unto the agent's expectations or if they are unresponsive (incoherent) then : 
+		Agent will try to clam down the caller: 
+			If the CalmDownTime > 3 minutes : then the call will be transferred to one of the special counselling hotline services.
+
+			else if : the caller contact Information (into the CallerInfo structure) - is 							  				then recorded and later on being passed along to the local police : Charge the caller $300 fee for 				misusing the service.
+
+		Else : if the caller, does succeed in order to describe his issue then :
+			
+STEP 8 - Agent determines the service allocated to it (in this case a structure called ProblemService) will be called :
+			If the problem == "Violence" || problem == "Safety":
+				Service allocated Police
+			Else If the problem == "Other Emergency":
+				Service allocated EMT (Emergency Medical Technician)
+			Else If the problem == "Life Threatening" || problem == "Serious Injury":
+				Service allocated ParaMedics
+			Else the problem == "Fire" || problem == "Chemical Volatility concerns":
+				Service allocated Firecrew
+STEP 9 - When the service is determined, the priority level is assigned to the call:
+			If the call is assigned a number 1 by the agent: 
+				Crucial Level is assigned..
+			Else if the call is assigned a number 2 by the agent: 
+				Critical Level is assigned..
+			Else the call is assigned a number 3 by the agent: 
+				Low Level is assigned..
+STEP 10 : After assigning the priorities to the calls, those calls with the priorities will be stored into the structure called PrioritiesLevel.
+STEP 10 : END/ TERMINATION OF PART 1
+
+
+				
