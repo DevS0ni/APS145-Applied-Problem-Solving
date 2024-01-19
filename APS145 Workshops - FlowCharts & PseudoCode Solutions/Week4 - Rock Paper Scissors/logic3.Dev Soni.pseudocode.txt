@@ -2,30 +2,30 @@
       LOGIC 3 GROUP 3 (DEV SONI -130759210)
       
 STEP 1 : START (INITIALIZATION) GAME
-STEP 2 : OBJECTS DECLARED AS VARIABLES Ð ÔrockÕ,Õ paperÕ,Õ scissorsÕ
+STEP 2 : OBJECTS DECLARED AS VARIABLES rock, paper, scissors
 STEP 3 : INPUT REQUESTED TO THE USER FOR CHOOSING ANY OBJECT
-STEP 4 : OBJECT CHOSE BY THE USER Ð STORED IN A VARIABLE CALLED ÔObj_ChosenÕ
+STEP 4 : OBJECT CHOSE BY THE USER STORED IN A VARIABLE CALLED Obj_Chosen
 STEP 5 : AFTER OBJECT IS CHOSE, COUNT DOWN STARTS FROM 1 TO 3
 STEP 6 : AFTER THE COMPLETION OF THE TIMER, USER REVEALS HIS OBJECT 
 STEP 7 : COMPUTER REVEALS HIS OBJECT AS ÔComp_Obj_ChosenÕ THROUGH RANDOM FUNCTION
-STEP 8 : IF Comp_Obj_Chosen == ÔpaperÕ && Obj_Chosen == ÔrockÕ OR Comp_Obj_Chosen == ÔscissorsÕ && Obj_Chosen == ÔpaperÕ OR Comp_Obj_Chosen == ÔrockÕ &&  Obj_Chosen == ÔscissorsÕ then
-	  OUTPUT PRINTS ÒComputer won the matchÓ
+STEP 8 : IF Comp_Obj_Chosen == paper && Obj_Chosen == rock OR Comp_Obj_Chosen == scissors && Obj_Chosen == paper OR Comp_Obj_Chosen == rock &&  Obj_Chosen == scissors then
+	  OUTPUT PRINTS Computer won the match
 	  INCREMENT OF THE VARIABLE : Comp_Won++
-STEP 9 : ELSE IF Comp_Obj_Chosen == ÔrockÕ && Obj_Chosen == ÔpaperÕ OR Comp_Obj_Chosen == ÔscissorsÕ && Obj_Chosen == ÔrockÕ OR Comp_Obj_Chosen == ÔpaperÕ &&  Obj_Chosen == ÔscissorsÕ then
-	  OUTPUT PRINTS ÒUser won the matchÓ
+STEP 9 : ELSE IF Comp_Obj_Chosen == rock && Obj_Chosen == paper OR Comp_Obj_Chosen == scissors && Obj_Chosen == rock OR Comp_Obj_Chosen == paper &&  Obj_Chosen == scissors then
+	  OUTPUT PRINTS User won the match
 	  INCREMENT OF THE VARIABLE : User_Won++
 STEP 10 : ELSE then
-	    OUTPUT PRINTS ÒThere is a tie ! No one won!!Ó
-	    OUTPUT PRINTS ÒThere should be a re-matchÓ
+	    OUTPUT PRINTS There is a tie ! No one won!!
+	    OUTPUT PRINTS There should be a re-match
 	    IF THE USER WANTS A RE-MATCH ? then
 	    	GOTO STEP 1
 	    ELSE then
 		WINNER IS DECLARED BASED ON THE POINTS STORED IN THE VARIABLES :
 			User_Won AND Comp_Won
 		IF User_Won > Comp_Won then
-			OUTPUT PRINTS ÒUser Won the matchÓ
+			OUTPUT PRINTS ÒUser Won the match
 		ELSE then
-			OUTPUT PRINTS ÒComputer won the matchÓ
+			OUTPUT PRINTS Computer won the match
 STEP 11 : END (TERMINATION) OF THE GAME
 
 
