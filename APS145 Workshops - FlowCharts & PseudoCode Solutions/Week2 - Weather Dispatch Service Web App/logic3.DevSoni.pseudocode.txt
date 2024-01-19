@@ -1,0 +1,40 @@
+# PSEUDOCODE (LOGIC3) – WORKSHOP 2 (APS145NOO) [GROUP3]:-
+INDIVIDUAL WORK (MEMBER 6) – SONI DEV ALPESHBHAI ( STUDENT NUMBER – 130759210)
+SUB-GROUP MEMBERS – PRASHANSA ( STUDENT NUMBER – 167378215)
+                  - JITWAN SINGH ( STUDENT NUMBER - 157113218)
+--------------------------------------------------------------------------------------------------------------------------------
+
+STEP 1 : START 
+STEP 2 : Enter the – Type of weather (Snow, Ice, Mixed (combination of both ice and snow) - for LOGIC  3, “Mixed” is entered.
+STEP 3 : Enter the accumulation amount per hour:
+	a.) If the Type of weather entered is “Mixed”, then accumulation amount per hour will be in centimeters (cm). - (For LOGIC 3)
+	b.) If the Type of weather entered is “Snow”, then accumulation amount per hour will be in centimeters (cm).
+	c.) Else the accumulation amount per hour will be in millimeters (mm), for Ice weather.
+STEP 4 : Enter the Temperature (in Celsius).
+STEP 5 : If the accumulation amount per hour is less than or equal to 2.5 cm (<= 2.5 cm)
+         Then, no action is required.
+STEP 6 : If the accumulation amount per hour is between 2.6 cm and 5.0 cm (2.6 – 5.0 cm),  then:
+	a.) If temperature is less than -10.0 (< -10.0), then:
+		-1 plow truck and 1 sand truck with light application rate will be needed.
+	b.) If temperature is lies between -10.0 and -5.0 (-10.0 to -5.0), then:
+		-1 plow truck and 1 salt truck with light application rate will be needed.
+	c.) If temperature is more than -5.0 (> -5.0), then:
+       		-1 plow truck will be needed, to tackle the situation.
+STEP 7: If the accumulation amount per hour is between 5.1 cm and 15.0 cm (5.1 to 15.0 cm),  then:
+	a.) If temperature is less than -10.0 (< -10.0), then:
+		-1 plow truck and 1 sand truck with heavy application rate will be needed.
+	b.) If temperature is lies between -10.0 and -5.0 (-10.0 to -5.0), then:
+		-1 plow truck and 1 salt truck with heavy application rate will be needed.
+	c.) If temperature is more than -5.0 (> -5.0), then:
+		-1 plow truck will be needed and 1 normal (application rate) salt truck will be needed.
+STEP 8: If the accumulation amount per hour is between 15.1 cm and 45.0 cm (15.1 to 45.0 cm),  then:
+	a.) If temperature is less than -10.0 (< -10.0), then:
+		-2 plow trucks and 1 sand truck with heavy application rate will be needed.
+	b.) If temperature is lies between -10.0 and -5.0 (-10.0 to -5.0), then:
+		-2 plow trucks and 1 salt truck with heavy application rate will be needed.
+	c.) If temperature is more than -5.0 (> -5.0), then:
+		-2 plow trucks will be needed and 1 light (application rate) salt truck will be needed.
+STEP 9: If the accumulation amount per hour is above 45.1 cm (45.1 + cm),  then:
+        - State of emergency will be declared (Organized army and other jurisdiction support).
+STEP 10: EXIT 
+
