@@ -1,1 +1,37 @@
-WORKSHOP Ð 10 : PAINT ESTIMATOR (LOGIC 2)NAME Ð Soni Dev AlpeshbhaiSTUDENT NUMBER Ð 130759210/* [Logic 2] Define the process that determines the paint type(s) and calculates the number of cans of paint required. The total area information will be sent to this subprocess (an input) since this will have been already calculated and the process should prompt for the number of coats of each paint type. Don't ignore the default suggestions for best results. */STEP 1 : START / INITIALISATION.STEP 2 : Executing the main process in the program, the program prompts the user, to give the information on how much Base coat paints are required as per their needs. As a suggestion, the program insists the user, to enter 2 coats for the best results ( NOT MANDATORY ).STEP 3 : When prompted, the user enters the number of coats of Base coat paints, to be required. The value entered by the user is stored inside a variable called ÔnumofBasecoatÕ. STEP 4 : At that same time, when user enters the value, the program calls a process called ÔpaintTypesÕ ( It is a process that determines the paint types and the number of paint cans to be used ).STEP 5 : Inside the process, ÔpaintTypesÕ, the value of the variable ÔnumofBasecoatÕ is passed into it. Afterwards, the requirement of the number of paint cans are evaluated into the process as :-totalPaintcoats = 3;numofFinishingcoats = totalPaintcans Ð numofBasecoats;==> If the numofBasecoats == 0, then numofFinishingcoats will be 3, required in total, will be prompted to the user.==> else if  the numofBasecoats == 1, then numofFinishingcoats will be 2, required in total, will be prompted to the user.==> else the numofBasecoats == 2, then numofFinishingcoats will be 1, required in total, will be prompted to the user.STEP 6 : The net area calculated, in the previous process, will be sent as an argument passed, to this process, stored in a variable called ÔareaNetÕ.STEP 7 : If the measured area stored in areaNet, is more than 12 m*m, then the painType preferred will be :==> BasePaint should be preferred for the paint work, will be prompted to the user.==> totalnumofBasecans = areaNet*numofBasecoats;Else if the measured area stored in areaNet, is more than 15 m*m, then the painType preferred will be :==> FinishingPaint should be preferred for the paint work, will be prompted to the user.==> totalnumofFishcans = areaNet*numofFinishingcoats;STEP 8 : END OF THE PROGRAM/ TERMINATION.
+WORKSHOP 10 : PAINT ESTIMATOR (LOGIC 2)
+
+NAME  Soni Dev Alpeshbhai
+STUDENT NUMBER  130759210
+
+/* [Logic 2] Define the process that determines the paint type(s) and calculates the number of cans of paint required. The total area information will be sent to this subprocess (an input) since this will have been already calculated and the process should prompt for the number of coats of each paint type. Don't ignore the default suggestions for best results. */
+
+STEP 1 : START / INITIALISATION.
+
+STEP 2 : Executing the main process in the program, the program prompts the user, to give the information on how much Base coat paints are required as per their needs. As a suggestion, the program insists the user, to enter 2 coats for the best results ( NOT MANDATORY ).
+
+STEP 3 : When prompted, the user enters the number of coats of Base coat paints, to be required. The value entered by the user is stored inside a variable called Ã”numofBasecoatÃ•. 
+
+STEP 4 : At that same time, when user enters the value, the program calls a process called Ã”paintTypesÃ• ( It is a process that determines the paint types and the number of paint cans to be used ).
+
+STEP 5 : Inside the process, Ã”paintTypesÃ•, the value of the variable Ã”numofBasecoatÃ• is passed into it. Afterwards, the requirement of the number of paint cans are evaluated into the process as :-
+
+totalPaintcoats = 3;
+
+numofFinishingcoats = totalPaintcans Ã numofBasecoats;
+
+==> If the numofBasecoats == 0, then numofFinishingcoats will be 3, required in total, will be prompted to the user.
+
+==> else if  the numofBasecoats == 1, then numofFinishingcoats will be 2, required in total, will be prompted to the user.
+
+==> else the numofBasecoats == 2, then numofFinishingcoats will be 1, required in total, will be prompted to the user.
+
+STEP 6 : The net area calculated, in the previous process, will be sent as an argument passed, to this process, stored in a variable called Ã”areaNetÃ•.
+
+STEP 7 : If the measured area stored in areaNet, is more than 12 m*m, then the painType preferred will be :
+==> BasePaint should be preferred for the paint work, will be prompted to the user.
+==> totalnumofBasecans = areaNet*numofBasecoats;
+Else if the measured area stored in areaNet, is more than 15 m*m, then the painType preferred will be :
+==> FinishingPaint should be preferred for the paint work, will be prompted to the user.
+==> totalnumofFishcans = areaNet*numofFinishingcoats;
+
+STEP 8 : END OF THE PROGRAM/ TERMINATION.
