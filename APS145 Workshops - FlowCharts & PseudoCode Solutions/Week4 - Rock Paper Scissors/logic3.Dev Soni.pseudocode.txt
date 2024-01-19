@@ -1,1 +1,31 @@
-      WORKSHOP  - 4 : ROCK, PAPER, SCISSORS (PSEUDOCODE) :-      LOGIC 3 Ð GROUP 3 (DEV SONI -130759210)      STEP 1 : START (INITIALIZATION) GAMESTEP 2 : OBJECTS DECLARED AS VARIABLES Ð ÔrockÕ,Õ paperÕ,Õ scissorsÕSTEP 3 : INPUT REQUESTED TO THE USER FOR CHOOSING ANY OBJECTSTEP 4 : OBJECT CHOSE BY THE USER Ð STORED IN A VARIABLE CALLED ÔObj_ChosenÕSTEP 5 : AFTER OBJECT IS CHOSE, COUNT DOWN STARTS FROM 1 TO 3STEP 6 : AFTER THE COMPLETION OF THE TIMER, USER REVEALS HIS OBJECT STEP 7 : COMPUTER REVEALS HIS OBJECT AS ÔComp_Obj_ChosenÕ THROUGH RANDOM FUNCTIONSTEP 8 : IF Comp_Obj_Chosen == ÔpaperÕ && Obj_Chosen == ÔrockÕ OR Comp_Obj_Chosen == ÔscissorsÕ && Obj_Chosen == ÔpaperÕ OR Comp_Obj_Chosen == ÔrockÕ &&  Obj_Chosen == ÔscissorsÕ then	  OUTPUT PRINTS ÒComputer won the matchÓ	  INCREMENT OF THE VARIABLE : Comp_Won++STEP 9 : ELSE IF Comp_Obj_Chosen == ÔrockÕ && Obj_Chosen == ÔpaperÕ OR Comp_Obj_Chosen == ÔscissorsÕ && Obj_Chosen == ÔrockÕ OR Comp_Obj_Chosen == ÔpaperÕ &&  Obj_Chosen == ÔscissorsÕ then	  OUTPUT PRINTS ÒUser won the matchÓ	  INCREMENT OF THE VARIABLE : User_Won++STEP 10 : ELSE then	    OUTPUT PRINTS ÒThere is a tie ! No one won!!Ó	    OUTPUT PRINTS ÒThere should be a re-matchÓ	    IF THE USER WANTS A RE-MATCH ? then	    	GOTO STEP 1	    ELSE then		WINNER IS DECLARED BASED ON THE POINTS STORED IN THE VARIABLES :			User_Won AND Comp_Won		IF User_Won > Comp_Won then			OUTPUT PRINTS ÒUser Won the matchÓ		ELSE then			OUTPUT PRINTS ÒComputer won the matchÓSTEP 11 : END (TERMINATION) OF THE GAME
+      WORKSHOP  - 4 : ROCK, PAPER, SCISSORS (PSEUDOCODE) :-
+      LOGIC 3 GROUP 3 (DEV SONI -130759210)
+      
+STEP 1 : START (INITIALIZATION) GAME
+STEP 2 : OBJECTS DECLARED AS VARIABLES Ã Ã”rockÃ•,Ã• paperÃ•,Ã• scissorsÃ•
+STEP 3 : INPUT REQUESTED TO THE USER FOR CHOOSING ANY OBJECT
+STEP 4 : OBJECT CHOSE BY THE USER Ã STORED IN A VARIABLE CALLED Ã”Obj_ChosenÃ•
+STEP 5 : AFTER OBJECT IS CHOSE, COUNT DOWN STARTS FROM 1 TO 3
+STEP 6 : AFTER THE COMPLETION OF THE TIMER, USER REVEALS HIS OBJECT 
+STEP 7 : COMPUTER REVEALS HIS OBJECT AS Ã”Comp_Obj_ChosenÃ• THROUGH RANDOM FUNCTION
+STEP 8 : IF Comp_Obj_Chosen == Ã”paperÃ• && Obj_Chosen == Ã”rockÃ• OR Comp_Obj_Chosen == Ã”scissorsÃ• && Obj_Chosen == Ã”paperÃ• OR Comp_Obj_Chosen == Ã”rockÃ• &&  Obj_Chosen == Ã”scissorsÃ• then
+	  OUTPUT PRINTS Ã’Computer won the matchÃ“
+	  INCREMENT OF THE VARIABLE : Comp_Won++
+STEP 9 : ELSE IF Comp_Obj_Chosen == Ã”rockÃ• && Obj_Chosen == Ã”paperÃ• OR Comp_Obj_Chosen == Ã”scissorsÃ• && Obj_Chosen == Ã”rockÃ• OR Comp_Obj_Chosen == Ã”paperÃ• &&  Obj_Chosen == Ã”scissorsÃ• then
+	  OUTPUT PRINTS Ã’User won the matchÃ“
+	  INCREMENT OF THE VARIABLE : User_Won++
+STEP 10 : ELSE then
+	    OUTPUT PRINTS Ã’There is a tie ! No one won!!Ã“
+	    OUTPUT PRINTS Ã’There should be a re-matchÃ“
+	    IF THE USER WANTS A RE-MATCH ? then
+	    	GOTO STEP 1
+	    ELSE then
+		WINNER IS DECLARED BASED ON THE POINTS STORED IN THE VARIABLES :
+			User_Won AND Comp_Won
+		IF User_Won > Comp_Won then
+			OUTPUT PRINTS Ã’User Won the matchÃ“
+		ELSE then
+			OUTPUT PRINTS Ã’Computer won the matchÃ“
+STEP 11 : END (TERMINATION) OF THE GAME
+
+
